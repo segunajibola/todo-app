@@ -18,10 +18,9 @@ body {
 }
 
 h1 {
-    color: rgb(223, 208, 238);
+    color: #fff;
     font-size: 8rem;
     text-align: center;
-    opacity: 0.4;
     margin: 0;
 }
 
@@ -42,7 +41,7 @@ form {
 }
 
 .input::placeholder {
-    color: #d5d5d5;
+    color: #a3a0a0;
 }
 
 .todos {
@@ -64,8 +63,16 @@ form {
     text-decoration: line-through;
 }
 
-small pre {
+small {
     color: #b5b5b5;
     margin-top: 3rem;
     text-align: center;
+}
+
+.device-info {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
