@@ -86,16 +86,18 @@ small {
 }
 
 footer {
+    text-align: center;
     color: #b5b5b5;
     margin: 50px 0px;
+    margin: 50px 0px 10px;
 }
 
-footer p .love {
+.love {
     color: red;
     font-size: 18px;
 }
 
-footer code {
+footer code, p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,4 +105,8 @@ footer code {
 
 footer code a {
     text-decoration: none;
+}
+
+footer p a{
+    margin: 4px;
 }
