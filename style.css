@@ -105,8 +105,12 @@ footer code, p {
 
 footer code a {
     text-decoration: none;
+    color: red;
 }
 
 footer p a{
     margin: 4px;
+    color: red;
+    text-decoration: none;
+
 }
